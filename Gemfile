@@ -18,6 +18,8 @@ ruby RUBY_VERSION
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
 gem "github-pages", 105, group: :jekyll_plugins
 
+gem 'html-proofer'
+
 # If you have any plugins, put them here!
 group :jekyll_plugins do
    gem "jekyll-feed", "~> 0.6"
